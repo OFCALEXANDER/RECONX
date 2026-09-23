@@ -1,0 +1,4 @@
+# Un dominio o IP por línea. Las líneas que empiezan con # se ignoran.
+example.com
+8.8.8.8
+scanme.nmap.org

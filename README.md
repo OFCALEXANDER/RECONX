@@ -45,22 +45,7 @@ export VT_API_KEY="tu_clave"
 
 ---
 
-## 1. Subir el proyecto a tu GitHub (desde donde estés ahora)
-
-```bash
-cd reconx
-git init
-git add .
-git commit -m "ReconX: herramienta de recon para dominios e IPs"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/reconx.git
-git push -u origin main
-```
-
-(Crea antes el repositorio vacío en GitHub: botón **New repository**, nómbralo
-`reconx`, sin README ni licencia para evitar conflictos con este `push`.)
-
-## 2. Instalar y ejecutar en tu Kali
+## 1. Instalar y ejecutar en tu Kali
 
 ```bash
 git clone https://github.com/TU_USUARIO/reconx.git
@@ -75,7 +60,7 @@ El instalador:
 - instala `subfinder` y `httpx` vía `go install` (opcional, mejora los módulos
   `--subdomains` y `--http`)
 
-## 3. Actualizar más adelante
+## 2. Actualizar más adelante
 
 Cuando cambies algo del script en tu PC de trabajo:
 

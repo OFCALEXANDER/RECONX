@@ -60,22 +60,6 @@ El instalador:
 - instala `subfinder` y `httpx` vía `go install` (opcional, mejora los módulos
   `--subdomains` y `--http`)
 
-## 2. Actualizar más adelante
-
-Cuando cambies algo del script en tu PC de trabajo:
-
-```bash
-git add .
-git commit -m "Ajustes"
-git push
-```
-
-Y en Kali, para traer los cambios:
-
-```bash
-cd reconx
-git pull
-```
 
 ## Uso responsable
 
